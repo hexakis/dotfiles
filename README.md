@@ -18,4 +18,7 @@ os: **void linux**
 terminal: **alacritty**  
 text editor: **neovim**  
 window switcher: **rofi**  
-window manager: **bspwm**  
+window manager: **bspwm**
+
+![](screenshot/scrot1.png)
+![](screenshot/scrot2.png)
