@@ -20,5 +20,7 @@ text editor: **neovim**
 window switcher: **rofi**  
 window manager: **bspwm**
 
+> Desktop
 ![](screenshot/scrot1.png)
+> Terminal
 ![](screenshot/scrot2.png)
