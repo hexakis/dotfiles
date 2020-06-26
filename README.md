@@ -15,7 +15,11 @@
 > for any damage done to your setup and will not help out fixing it.
 
 > os: **void linux**
+
 > terminal: **alacritty**
+
 > text editor: **neovim**
+
 > window switcher: **rofi**
+
 > window manager: **bspwm**
