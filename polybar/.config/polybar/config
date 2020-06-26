@@ -1,0 +1,119 @@
+[colors]
+background = #292824
+background-alt = #444
+foreground = #dfdfdf
+foreground-alt = #555
+primary = #c0acb5
+secondary = #c0acb5
+alert = #bd2c40
+
+[bar/debuggingisfun]
+monitor = ${env:MONITOR:DP-1}
+width = 100%
+height = 37
+radius = 0
+fixed-center = false
+bottom = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3.5
+
+border-size = 1
+border-color = ${colors.background}
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Fira Code:size=10
+
+modules-left = bspwm
+modules-center = mpd
+modules-right = date
+
+tray-position = right
+tray-padding = 2
+
+wm-restack = bspwm
+
+override-redirect = false 
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = %icon%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= #f54b2
+label-focused-padding = 2
+
+label-occupied = %icon%
+label-occupied-padding = 2
+
+label-urgent = %index%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+label-empty = %icon%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 2
+
+ws-icon-0 = terminal;terminal
+ws-icon-1 = internet;web
+ws-icon-2 = programming;code 
+ws-icon-3 = music;music
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>
+
+host = 127.0.0.1
+port = 6600
+password = 
+
+label-song-maxlen = 200
+label-song =  %artist% - %title%
+
+
+[module/date]
+type = internal/date
+interval = 5
+
+date =
+date-alt = " %Y-%m-%d"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #0a6cf5 
+
+label = %date% %time%
+
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 10
+margin-bottom = 5
