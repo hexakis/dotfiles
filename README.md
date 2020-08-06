@@ -14,7 +14,7 @@
 os: ***void linux***  
 terminal: ***alacritty***  
 text editor: ***neovim***  
-window switcher: ***rofi***  
+application launcher: ***rofi***  
 window manager: ***bspwm***
 
 > Desktop
