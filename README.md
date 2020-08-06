@@ -11,16 +11,13 @@
 </pre>
 
 ## Information
-> This is my **Void Linux** setup. You can use these config files as you please, but I am not by any means responsible
-> for any damage done to your setup and will not help out fixing it.
-
-os: **void linux**  
-terminal: **alacritty**  
-text editor: **neovim**  
-window switcher: **rofi**  
-window manager: **bspwm**
+os: ***void linux***  
+terminal: ***alacritty***  
+text editor: ***neovim***  
+window switcher: ***rofi***  
+window manager: ***bspwm***
 
 > Desktop
-![](screenshot/scrot1.png)
+![](screenshot/1.png)
 > Terminal
-![](screenshot/scrot2.png)
+![](screenshot/2.png)

@@ -31,7 +31,7 @@ bspc config adaptative_raise 	true
 #-----------------------------------------------------------
 
 # Change background
-feh --bg-fill  ~/src/hexakis/wallpaper/shrine.png
+feh --bg-fill  ~/src/hexakis/wallpaper/forest_traintracks.jpg
 
 # Set workspaces
 bspc monitor -d $ws1 $ws2 $ws3 $ws4
